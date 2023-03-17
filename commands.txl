@@ -22,4 +22,5 @@ python manage.py runserver
 step 7:
 python manage.py startapp core
 
-step 8:
+step 8: setup item 
+python manage.py startapp item
