@@ -24,3 +24,12 @@ python manage.py startapp core
 
 step 8: setup item 
 python manage.py startapp item
+and 
+python manage.py makemigrations
+to execute the script
+python manage.py migrate
+
+to add data we need to log into the admin interface
+for this we need a user...create one
+python manage.py createsuperuser
+
